@@ -12,7 +12,7 @@ The system combines a Raspberry Pi, Raspberry Pi Pico, light sensors and PWM-bas
 
 The Raspberry Pi acts as a central part of the system and communicates with sensors, the microcontroller and the mobile application.
 
-![Smart Lighting System Architecture](images/system-architecture.png.webp)
+![Smart Lighting System Architecture](images/system-architecture.png)
 
 ## Features
 
@@ -78,7 +78,7 @@ The software includes functionality for:
 - Server functionality
 - System testing
 
-![Raspberry Pi Server Code](images/raspberry-pi-server-code.png.webp)
+![Raspberry Pi Server Code](images/raspberry-pi-server-code.png)
 
 ## Source Code
 
@@ -98,19 +98,19 @@ Main files include:
 
 The project uses several communication methods between the different components.
 
-**Wi-Fi**
+### Wi-Fi
 
 Used for communication between the mobile application and the Raspberry Pi.
 
-**UART**
+### UART
 
 Used for serial communication between system components.
 
-**I²C**
+### I²C
 
 Used for communication with light sensors.
 
-**PWM**
+### PWM
 
 Used to regulate the intensity of the connected light source.
 
@@ -156,10 +156,10 @@ smart-lighting-embedded-system/
 │   └── server2.py
 │
 ├── images/
-│   ├── system-architecture.png.webp
+│   ├── system-architecture.png
 │   ├── mobile-app-control-interface.png
 │   ├── mobile-app-dimming-control.png
-│   └── raspberry-pi-server-code.png.webp
+│   └── raspberry-pi-server-code.png
 │
 ├── .gitignore
 └── README.md
